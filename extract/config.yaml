@@ -1,0 +1,15 @@
+news_sites:
+  semana:
+    url: 
+      https://www.semana.com
+    queries:
+      homepage_articles_links : '.article-h a'
+      article_body: '#contentItem > p'
+      article_title: '.tittleArticuloOpinion'
+  elespectador:
+    url: 
+      https://www.elespectador.com
+    queries:
+      homepage_articles_links : '.node-image a'
+      article_body: '.node-body > p'
+      article_title: '.node-title > h1'
